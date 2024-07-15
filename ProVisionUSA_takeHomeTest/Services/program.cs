@@ -2,7 +2,9 @@
 public class PROGRAM
 {
     public string programName { get; set; }
-    public string programVersion { get; set; } = string.Empty;
+    
+    // Default values
+    public string programVersion { get; set; } = "Not installed or not found in PATH";
     public string versionCommand { get; set; } = "--version";
 
     // We don't want to have an empty program name to check the version of,
