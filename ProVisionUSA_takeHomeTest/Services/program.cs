@@ -2,8 +2,8 @@
 public class PROGRAM
 {
     public string programName { get; set; }
-    
-    // Default values
+
+    // Initially assume that each program contains these values unless specified otherwise
     public string programVersion { get; set; } = "Not installed or not found in PATH";
     public string versionCommand { get; set; } = "--version";
 
